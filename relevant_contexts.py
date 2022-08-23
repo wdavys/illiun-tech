@@ -26,7 +26,7 @@ class ContextRetriever:
         with_questions : bool, optional
             Whether questions should be loaded from the dataset, by default False
         recompute : bool, optional
-            Force computation of embeddings, even if a version exists in cache, by default False
+            Forces computation of embeddings, even if a version exists in cache, by default False
         """
 
         if with_questions:
