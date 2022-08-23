@@ -30,7 +30,6 @@ def load_data(path):
             contexts.append(paragraph["context"])
             for qa in paragraph["qas"]:
                 questions.append({"question": qa["question"], "context_id": i})
-
             i += 1
 
     return contexts, questions
